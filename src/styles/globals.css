@@ -6,6 +6,41 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --doc-height: 100%;
+  --doc-width: 100%;
+
+  --clr-primary-50: #efe5fd;
+  --clr-primary-100: #d4bff9;
+  --clr-primary-200: #b794f6;
+  --clr-primary-300: #9965f4;
+  --clr-primary-400: #7e3ff2;
+  --clr-primary-500: #6002ee;
+  --clr-primary: var(--clr-primary-500);
+  --clr-primary-600: #5300e8;
+  --clr-primary-700: #3d00e0;
+  --clr-primary-800: #1d00db;
+  --clr-primary-900: #0000d6;
+  --clr-secondary-50: #ffffff;
+  --clr-secondary: var(--clr-secondary-50);
+  --clr-secondary-100: #fafafa;
+  --clr-secondary-200: #f5f5f5;
+  --clr-secondary-300: #f0f0f0;
+  --clr-secondary-400: #dedede;
+  --clr-secondary-500: #c2c2c2;
+  --clr-secondary-600: #979797;
+  --clr-secondary-700: #818181;
+  --clr-secondary-800: #606060;
+  --clr-secondary-900: #3c3c3c;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh; /* fallback for Js load */
+  width: 100vw; /* fallback for Js load */
+  height: var(--doc-height);
+  width: var(--doc-width);
 }
 
 @media (prefers-color-scheme: dark) {

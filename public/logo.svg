@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-13.309 23.282 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <g style="transform-origin: 236.691px 273.282px;" transform="matrix(0, 1, -1, 0, 0.000076293945, -0.000080108643)"/>
+  <g style="transform-origin: 236.691px 273.282px;" transform="matrix(0.91923892498, 0.91923892498, -0.91923892498, 0.91923892498, 0.000477893183, -0.000971966467)">
+    <path d="M 823.241 312.379 H 993.241 A 40 40 0 0 1 1033.241 352.379 V 522.379 A 40 40 0 0 1 993.241 562.379 H 823.241 A 40 40 0 0 1 783.241 522.379 V 352.379 A 40 40 0 0 1 823.241 312.379 Z M 783.241 352.379 V 522.379 A 40 40 0 0 0 823.241 562.379 H 993.241 A 40 40 0 0 0 1033.241 522.379 V 352.379 A 40 40 0 0 0 993.241 312.379 H 823.241 A 40 40 0 0 0 783.241 352.379 Z" style="fill: rgba(216, 216, 216, 0); transform-box: fill-box; transform-origin: 50% 50%; stroke: rgb(0, 0, 0); stroke-width: 5px;" transform="matrix(0.707143, 0.70707, -0.70707, 0.707143, -671.549748, -164.096252)" bx:shape="frame 783.241 312.379 250 250 0 0 40 40 40 40 1@59ee5c8f"/>
+    <rect x="234.191" y="55.264" width="10" height="300" style="stroke: rgba(0, 0, 0, 0); fill: rgb(255, 255, 255); transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, -2.499729, 68.018778)"/>
+    <rect x="86.448" y="22.624" width="10" height="295.385" style="stroke: rgba(0, 0, 0, 0); fill: rgb(255, 255, 255); transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 145.243245, 102.96628)"/>
+  </g>
+  <text style="fill: rgb(51, 51, 51); font-family: Futura; font-size: 39.8988px; stroke-width: 1.02492px; white-space: pre;" transform="matrix(5.259748935699463, 0, 0, 4.887359142303467, -1018.1014404296875, -1054.71435546875)" x="202.769" y="249.321" dx="16.616" dy="37.927">M</text>
+</svg>

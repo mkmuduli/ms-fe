@@ -1,15 +1,14 @@
 import { Inter } from 'next/font/google'
 import Layout from '@/components/layout'
+import Initial from '@/components/no-auth/index'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main
-      className={`${inter.className}`}
-    >
-      Hello
-    </main>
+    <div className={`${inter.className} flex flex-col h-doc-height w-doc-width`}>
+      <Initial />
+    </div>
   )
 }
 
