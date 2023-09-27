@@ -1,21 +1,12 @@
-import { Inter } from 'next/font/google'
-import Layout from '@/components/layout'
-import Initial from '@/components/no-auth/index'
+import { Inter } from "next/font/google";
+import Layout from "@/components-core/layout";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return (
-    <div className={`${inter.className} flex flex-col h-doc-height w-doc-width`}>
-      <Initial />
-    </div>
-  )
+  return <div className={`${inter.className} flex flex-col`}>Home</div>;
 }
 
 Home.getLayout = function getLayout(page) {
-  return (
-    <Layout>
-      {page}
-    </Layout>
-  )
-}
+  return <Layout>{page}</Layout>;
+};
