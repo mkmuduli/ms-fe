@@ -6,6 +6,7 @@ import Logo from "@/components-page/auth/Logo";
 import Welcome from "@/components-page/auth/welcome";
 
 export default function Auth() {
+  // eslint-disable-next-line no-unused-vars
   const [loading, setLoad] = useState(false);
   return (
     <>
