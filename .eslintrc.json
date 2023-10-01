@@ -1,44 +1,6 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "extends": [
-    "airbnb",
-    "plugin:@next/next/recommended",
-    "prettier"
-  ],
-  "overrides": [
-    {
-      "env": {
-        "node": true
-      },
-      "files": [
-        ".eslintrc.{js,cjs}"
-      ],
-      "parserOptions": {
-        "sourceType": "script"
-      }
-    }
-  ],
-  "plugins": [
-    "prettier"
-  ],
-  "parserOptions": {
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-  },
+  "extends": ["next", "next/core-web-vitals" ],
   "rules": {
-    "prettier/prettier": [
-      "error"
-    ],
-    "react/react-in-jsx-scope": "off",
-    "react/prop-types": "off",
-    "react/jsx-props-no-spreading": "off",
-    "no-undef": "off",
-    "import/no-unresolved": "off",
-    "import/extensions": "off",
-    "jsx-a11y/anchor-is-valid": "off",
-    "react/jsx-filename-extension": "off"
+    "no-unused-vars":"error"
   }
 }

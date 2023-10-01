@@ -1,6 +1,6 @@
-import Logo from '@/components-page/auth/Logo';
-import Layout from '@/components-core/layout';
-import Button from '@/components-core/button';
+import Logo from "@/components-page/auth/Logo";
+import Layout from "@/components-core/layout";
+import Button from "@/components-core/button";
 
 const Login = () => {
   return (
