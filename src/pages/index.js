@@ -3,7 +3,6 @@ import Layout from "@/components-core/layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
 export default function Home() {
   return <div className={`${inter.className} flex flex-col`}>Home</div>;
 }
