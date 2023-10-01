@@ -8,7 +8,7 @@ const Welcome = () => {
         Read our <a href="/privacy">Privacy Policy</a>. Tap “Agree and Continue”
         to accept <a href="/term">Terms of Services.</a>
       </p>
-      <Button className="mt-9 mb-12 self-stretch">Agree and Continue</Button>
+      <Button className='mt-9 mb-12 self-stretch'>Agree and Continues</Button>
     </section>
   );
 };
