@@ -1,4 +1,4 @@
-import Button from '@/components-core/button';
+import Button from '@/components-core/Button/Button';
 
 const Welcome = () => {
   return (

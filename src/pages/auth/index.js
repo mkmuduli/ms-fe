@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Layout from "@/components-core/layout";
+import Layout from "@/components-core/Layout";
 import Logo from "@/components-page/auth/Logo";
 import Welcome from "@/components-page/auth/welcome";
 
