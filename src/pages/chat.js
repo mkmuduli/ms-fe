@@ -1,6 +1,5 @@
-// import Image from 'next/image';
-// import Search from '../assets/search.svg'
-// import ThreeDots from '../assets/three-dots.svg'
+import SearchSvg from '../assets/SearchSvg'
+import ThreeDotsSvg from '../assets/ThreeDots'
 import IconButton from '@/components-core/Button/IconButton';
 
 function Chat() {
@@ -9,13 +8,12 @@ function Chat() {
       <section className="flex items-center px-6 pt-4 gap-1 ">
         <h1 className="text-4xl font-bold dark:text-white grow">Moments</h1>
         <IconButton>
-          {/* <Image src={Search} alt='search button' /> */}
-          {/* <Search /> */}
+          <SearchSvg />
         </IconButton>
 
-        {/* <IconButton>
-          <Image src={ThreeDots} alt='menu button' />
-        </IconButton> */}
+        <IconButton>
+          <ThreeDotsSvg />
+        </IconButton>
       </section>
     </section>
   );
