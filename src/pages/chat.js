@@ -1,4 +1,5 @@
-import Tab from "@/components-core/Tab/tab";
+import { useState } from 'react'
+import Tabs from "@/components-core/Tabs/tabs";
 import SearchSvg from "../assets/SearchSvg";
 import ThreeDotsSvg from "../assets/ThreeDots";
 import IconButton from "@/components-core/Button/IconButton";
@@ -6,6 +7,7 @@ import IconButton from "@/components-core/Button/IconButton";
 const TabList = [{ name: "Chat" }, { name: "Group" }, { name: "Status" }];
 
 function Chat() {
+  const [activeTabIndex, setActiveIndex] = useState(0);
   return (
     <>
       <section className="flex items-center px-6 py-4 gap-1 ">
@@ -19,7 +21,10 @@ function Chat() {
         </IconButton>
       </section>
       <section>
-        <Tab items={TabList} activeIndex={0} />
+        <Tabs className="flex justify-center " items={TabList} activeIndex={activeTabIndex} onChangeTab={setActiveIndex} />
+        <section>
+
+        </section>
       </section>
     </>
   );
